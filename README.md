@@ -32,7 +32,7 @@ The following setup has been used to reproduce this work:
 
 
 ## Prepare dataset ##
-We evaluated our DeepSleepNet with MASS and [Sleep-EDF](https://physionet.org/pn4/sleep-edfx/) dataset.
+We evaluated our SingelChannelNet with CCSHS and [Sleep-EDF](https://physionet.org/pn4/sleep-edfx/) dataset.
 
 For the MASS dataset, you have to request for a permission to access their dataset. 
 For the [Sleep-EDF](https://physionet.org/pn4/sleep-edfx/) dataset, you can run the following scripts to download SC subjects.
