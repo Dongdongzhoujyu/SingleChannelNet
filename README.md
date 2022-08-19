@@ -58,17 +58,15 @@ Run this script to show a summary of the performance of our DeepSleepNet compare
 ## Citation ##
 If you find this useful, please cite our work as follows:
 
-          @article{ZHOU2022103592,
-          title = {SingleChannelNet: A model for automatic sleep stage classification with raw single-channel EEG},
-          journal = {Biomedical Signal Processing and Control},
-          volume = {75},
-          pages = {103592},
-          year = {2022},
-          issn = {1746-8094},
-          doi = {https://doi.org/10.1016/j.bspc.2022.103592},
-          url = {https://www.sciencedirect.com/science/article/pii/S1746809422001148},
-          author = {Dongdong Zhou and Jian Wang and Guoqiang Hu and Jiacheng Zhang and Fan Li and Rui Yan and Lauri Kettunen and Zheng Chang and Qi Xu and Fengyu Cong}
-          }
+        @article{zhou2022singlechannelnet,
+          title={Singlechannelnet: A model for automatic sleep stage classification with raw single-channel eeg},
+          author={Zhou, Dongdong and Wang, Jian and Hu, Guoqiang and Zhang, Jiacheng and Li, Fan and Yan, Rui and Kettunen, Lauri and Chang, Zheng and Xu, Qi and Cong, Fengyu},
+          journal={Biomedical Signal Processing and Control},
+          volume={75},
+          pages={103592},
+          year={2022},
+          publisher={Elsevier}
+        }
 ## Licence ##
 - For academic and non-commercial use only
 - Apache License 2.0
