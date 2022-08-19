@@ -7,6 +7,6 @@ This work has been accepted for publication in [Biomedical signal processing and
 
 The structure of SingleChannelNet is shown as:
 
-![SingleChannelNet](./images/SingleChannelNet.png)
+![SingleChannelNet](./images/SingleChannelNet.eps)
 
 ## Environment ##
