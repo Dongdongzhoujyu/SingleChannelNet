@@ -9,8 +9,6 @@ The structure of SingleChannelNet is shown as:
 
 ![SingleChannelNet](./images/SingleChannelNet.png)
 
-## Environment ##
-
 
 ## Environment ##
 
@@ -31,8 +29,8 @@ The following setup has been used to reproduce this work:
 - [eAE](https://github.com/aoehmichen/eae-docker) (optional)
 
 
-## Prepare dataset ##
-We evaluated our SingelChannelNet with [CCSHS](https://sleepdata.org/datasets/ccshs) and [Sleep-EDF](https://www.physionet.org/content/sleep-edfx/1.0.0/) dataset.
+## Evaluation datasets ##
+We evaluated our SingelChannelNet with [CCSHS](https://sleepdata.org/datasets/ccshs) and [Sleep-EDF](https://www.physionet.org/content/sleep-edfx/1.0.0/) datasets.
 
 For the MASS dataset, you have to request for a permission to access their dataset. 
 For the [Sleep-EDF](https://physionet.org/pn4/sleep-edfx/) dataset, you can run the following scripts to download SC subjects.
@@ -47,9 +45,7 @@ Then run the following script to extract specified EEG channels and their corres
     python prepare_physionet.py --data_dir data --output_dir data/eeg_pz_oz --select_ch 'EEG Pz-Oz'
 
 
-
-
-## Get a summary ##
+## Summary ##
 Run this script to show a summary of the performance of our DeepSleepNet compared with the state-of-the-art hand-engineering approaches. The performance metrics are overall accuracy, per-class F1-score, and macro F1-score.
 
     python summary.py --data_dir output
