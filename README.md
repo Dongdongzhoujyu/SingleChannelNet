@@ -5,4 +5,5 @@ Code for the model in the paper SingleChannelNet: A model for automatic sleep st
 
 This work has been accepted for publication in [Biomedical signal processing and control](https://www.sciencedirect.com/science/article/pii/S1746809422001148).
 
-The structure of SingleChannelNet is shown as () 
+The structure of SingleChannelNet is shown as:
+![SingleChannelNet](./img/SingleChannelNet.eps)
