@@ -32,12 +32,6 @@ The following setup has been used to reproduce this work:
 ## Evaluation datasets ##
 We evaluated our SingelChannelNet with [CCSHS](https://sleepdata.org/datasets/ccshs) and [Sleep-EDF](https://www.physionet.org/content/sleep-edfx/1.0.0/) datasets.
 
-For the MASS dataset, you have to request for a permission to access their dataset. 
-For the [Sleep-EDF](https://physionet.org/pn4/sleep-edfx/) dataset, you can run the following scripts to download SC subjects.
-
-    cd data
-    chmod +x download_physionet.sh
-    ./download_physionet.sh
 
 Then run the following script to extract specified EEG channels and their corresponding sleep stages.
 
