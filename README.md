@@ -33,9 +33,8 @@ We evaluated our SingelChannelNet with [CCSHS](https://sleepdata.org/datasets/cc
 
 
 ## Summary ##
-Run this script to show a summary of the performance of our DeepSleepNet compared with the state-of-the-art hand-engineering approaches. The performance metrics are overall accuracy, per-class F1-score, and macro F1-score.
+Run this script to show a summary of the performance of our DeepSleepNet compared with the state-of-the-art hand-engineering approaches. The performance metrics are overall accuracy (ACC), precision (PR), recall (RE), F1 score (F1), and Cohen’s kappa coefficient (K).
 
-    python summary.py --data_dir output
     
 
 ## Citation ##
