@@ -39,7 +39,13 @@ Data preparation
 2. Many-to-one scheme: 
 ![Many-to-one scheme](./images/Many-to-one.png)
 
-Run SCNet.py to get the confusion matrix of test set of each fold. The performance metrics are overall accuracy (ACC), precision (PR), recall (RE), F1 score (F1), and Cohen’s kappa coefficient (K), which can be caculated from the confusion matrix.
+Run SCNet.py to get the confusion matrix of test set of each fold. 
+
+The mean coufusion matrix of 5-fold cross validation. 
+
+
+
+Run The performance metrics are overall accuracy (ACC), precision (PR), recall (RE), F1 score (F1), and Cohen’s kappa coefficient (K), which can be caculated from the confusion matrix.
 
     
 
