@@ -43,9 +43,9 @@ Run SCNet.py to get the confusion matrix of test set of each fold.
 
 The mean coufusion matrix of 5-fold cross validation. 
 
+The dimension of the mean confusion matrix is 6*6. The 6th row and column are the sum value.
 
-
-Run The performance metrics are overall accuracy (ACC), precision (PR), recall (RE), F1 score (F1), and Cohen’s kappa coefficient (K), which can be caculated from the confusion matrix.
+Run Performance_metrics.py to get the performance metrics: overall accuracy (ACC), precision (PR), recall (RE), F1 score (F1), and Cohen’s kappa coefficient (K), which can be caculated from the mean confusion matrix.
 
     
 
