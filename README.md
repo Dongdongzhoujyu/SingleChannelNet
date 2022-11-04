@@ -12,7 +12,6 @@ The structure of SingleChannelNet is shown as:
 
 ## Environment ##
 
-- Ubuntu 18.04 / Windows 10 1903 x64
 - CUDA toolkit 11.6 and CuDNN v7.6.4
 - Python 3.6.7
 - tensorflow-gpu (1.12.0)
