@@ -12,21 +12,19 @@ The structure of SingleChannelNet is shown as:
 
 ## Environment ##
 
-The following setup has been used to reproduce this work:
-
 - Ubuntu 18.04 / Windows 10 1903 x64
-- CUDA toolkit 10.0 and CuDNN v7.6.4
-- Python 3.5.4 x64
-- tensorflow-gpu (1.15.2)
-- matplotlib (1.5.3)
-- scikit-learn (0.19.1)
-- scipy (1.4.1)
-- numpy (1.18.2)
-- pandas (0.25.3)
-- mne (0.20.0)
-- [tensorlayer](https://github.com/zsdonghao/tensorlayer) (optional)
-- MongoDB (optional)
-- [eAE](https://github.com/aoehmichen/eae-docker) (optional)
+- CUDA toolkit 11.6 and CuDNN v7.6.4
+- Python 3.6.7
+- tensorflow-gpu (1.12.0)
+- Keras (2.2.4)
+- matplotlib (3.2.2)
+- scikit-learn (0.23.1)
+- scipy (1.5.0)
+- numpy (1.16.0)
+- pandas (1.1.0)
+- mne (0.21.2)
+- h5py (2.10.0)
+
 
 
 ## Evaluation datasets ##
