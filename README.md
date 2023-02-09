@@ -34,7 +34,7 @@ We evaluated our SingelChannelNet with [CCSHS](https://sleepdata.org/datasets/cc
 ## Summary ##
 Data preparation
 
-1. The format of data and label is .h5 and .csv, respectively. 
+1. The format of data and label are .h5 and .csv, respectively. 
 2. Many-to-one scheme: 
 ![Many-to-one scheme](./images/Many-to-one.png)
 
